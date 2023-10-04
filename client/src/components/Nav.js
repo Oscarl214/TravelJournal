@@ -4,9 +4,8 @@ const Nav = () => {
   return (
     <div>
       <nav>
-        <ul>
-          <li>Oscars Travel Journal</li>
-        </ul>
+        <img src="./Globe.png" className="nav--img"></img>
+        <h2>O's Travel Journal</h2>
       </nav>
     </div>
   );

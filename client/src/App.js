@@ -3,10 +3,14 @@ import './App.css';
 
 import Nav from './components/Nav';
 
+import TravelCard from './components/Card';
 function App() {
   return (
     <div>
       <Nav />
+      <section>
+        <TravelCard />
+      </section>
     </div>
   );
 }
