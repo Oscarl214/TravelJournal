@@ -3,14 +3,19 @@ import './App.css';
 
 import Nav from './components/Nav';
 
-import TravelCard from './components/Card';
+import Card from './components/Card';
+
+import travelData from './data';
+
 function App() {
+  let displayCard = travelData.map((country) => {
+    return <Card key={country.id} countryInfo={country} />;
+  });
+
   return (
     <div>
       <Nav />
-      <section>
-        <TravelCard />
-      </section>
+      <section>{displayCard}</section>
     </div>
   );
 }
