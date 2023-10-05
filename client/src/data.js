@@ -2,7 +2,7 @@ const travelData = [
   {
     id: 1,
     country: 'Mexico',
-    age: 'Birth',
+    age: '3',
     googleMapsUrl: 'https://maps.app.goo.gl/TUJPiAKcU5p2TT1u7',
     startDate: '',
     endDate: '',
