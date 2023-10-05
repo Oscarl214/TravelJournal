@@ -5,17 +5,24 @@ import Nav from './components/Nav';
 
 import Card from './components/Card';
 
-import travelData from './data';
+// import travelData from './data';
+import GalleryPage from './components/GalleryPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  let displayCard = travelData.map((country) => {
-    return <Card key={country.id} countryInfo={country} />;
-  });
+  // let displayCard = travelData.map((country) => {
+  //   return <Card key={country.id} countryInfo={country} />;
+  // });
 
   return (
     <div>
-      <Nav />
-      <section>{displayCard}</section>
+      {/* {displayCard} */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Card />} />
+          <Route path="/gallery/:id" element={<GalleryPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
