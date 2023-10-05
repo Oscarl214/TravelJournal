@@ -13,25 +13,6 @@ const GalleryPage = () => {
     (country) => country.id === parseInt(id, 10)
   );
 
-  console.log(country.img1);
-  const [key, setKey] = useState(0);
-
-  useEffect(() => {
-    const images = document.querySelectorAll('img');
-
-    gsap.set(images, { autoAlpha: 1 });
-
-    gsap.from(images, {
-      autoAlpha: 0, // Start with 0 opacity
-      duration: 2, // Animation duration
-    });
-  }, [id, key]);
-
-  useEffect(() => {
-    // Update the key whenever id changes
-    setKey((prevKey) => prevKey + 1);
-  }, [id]); // Include id in the dependency array
-
   return (
     <div
       className="min-h-screen bg-cover bg-no-repeat bg-center"
@@ -39,7 +20,7 @@ const GalleryPage = () => {
     >
       <Nav />
       <div className="p-4 ">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 images">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
           <div>
             <img
               class="h-auto max-w-full rounded-lg"

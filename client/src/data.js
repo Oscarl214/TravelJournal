@@ -43,6 +43,17 @@ const travelData = [
       'The United Arab Emirates is a federation of seven emirates located in the southeastern corner of the Arabian Peninsula. It is known for its modern architecture, luxury shopping, and vibrant nightlife. Took a trip to the UAE for my second study abroad trip during my senior year of college where I was able to attend the World Expo, and see cities like Dubai, & Abu Dhabi.',
     imageUrl: './UAE.jpg',
   },
+  {
+    id: 5,
+    country: 'Puerto Rico',
+    age: 24,
+    googleMapsUrl: 'https://maps.app.goo.gl/ugoTfDRcP4v92aPZ9',
+    startDate: '09 August, 2023',
+    endDate: '14 August, 2023',
+    description:
+      'Puerto Rico, though not its own sovereign nation, holds its own weight. This trip was unforgettable, marking mines and my girlfriend first adventure as a couple. Renting a car allowed us to explore the stunning west coast of the island at our own pace. We visited San Juan, Arecibo, Culebra, and El Yunque, each destination leaving a unique imprint on our memories. The islands beauty captivated us, ensuring well return for more enchanting experiences in the future.  ',
+    imageUrl: './PR.jpg',
+  },
 ];
 
 export default travelData;
