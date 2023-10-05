@@ -52,4 +52,4 @@ This personal project was built using the following:
 
 ## LiveSite
 
-Coming Soon.
+[Live Site.](https://ostravel-journal.netlify.app/)https://ostravel-journal.netlify.app/
