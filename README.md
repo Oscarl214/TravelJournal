@@ -8,7 +8,7 @@ A personal journal dedicated to my travels.
 
 ## Business Case
 
-Documents everywhere I've been, I am a traveler at heart so I decided to develop this application to keep track.
+Documents every country I've been with the options to view a gallery from each country, I am a traveler at heart so I decided to develop this application to keep track.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ Documents everywhere I've been, I am a traveler at heart so I decided to develop
 
 When Accessed:
 
-Can view all locations I have been to.
+Can view all countries I have been to.
 
 ## Contributors
 
@@ -33,6 +33,10 @@ This application was developed by the following contributors:
 
 ## UI
 
+![HomePage](./client/public/image.png)
+
+![Alt text](./client/public/Page2.png)
+
 ## Technologies
 
 This personal project was built using the following:
@@ -40,6 +44,7 @@ This personal project was built using the following:
 - Node.js
 - React.js
 - CSS
+- TailWind
 
 ## License
 
