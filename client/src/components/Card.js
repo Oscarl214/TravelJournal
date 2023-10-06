@@ -32,9 +32,7 @@ const Card = () => {
                 <h6 className="text-lg">
                   {country.startDate} - {country.endDate}
                 </h6>
-                <h6 className="text-2xl mt-4">
-                  My age when I visited: {country.age}
-                </h6>
+                <h6 className="text-2xl mt-4">Age: {country.age}</h6>
                 <p className="mb-3 font-semibold text-lg text-gray-700 mt-5">
                   {country.description}
                 </p>

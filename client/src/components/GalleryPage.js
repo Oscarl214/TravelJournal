@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Nav from './Nav';
 import galleryData from '../gallerydata';
 import gsap from 'gsap';
@@ -85,6 +85,16 @@ const GalleryPage = () => {
             />
           </div>
         </div>
+      </div>
+      <div>
+        <Link to={'/'}>
+          <button
+            type="button"
+            className="flex justify-center items-center bg-blue-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-custom font-bold rounded-lg text-sm px-5 py-2.5 text-center mb-2 mx-auto"
+          >
+            HomePage
+          </button>
+        </Link>
       </div>
     </div>
   );
