@@ -64,6 +64,32 @@ const galleryData = [
     img8: '/images/PR-7.jpg',
     img9: '/images/PR-8.jpg',
   },
+  {
+    id: 5,
+    bg: '/images/PR-BG.jpg',
+    img1: '/images/PR-1.JPG',
+    img2: '/images/PR-2.JPG',
+    img3: '/images/PR-3.jpg',
+    img4: '/images/PR-4.jpg',
+    img5: '/images/PR-Main.jpg',
+    img6: '/images/PR-5.JPG',
+    img7: '/images/PR-6.jpg',
+    img8: '/images/PR-7.jpg',
+    img9: '/images/PR-8.jpg',
+  },
+  {
+    id: 6,
+    bg: '/images/GUATBG.jpg',
+    img1: '/images/GUAT1-1jpg.JPG',
+    img2: '/images/GUAT2jpg.JPG',
+    img3: '/images/GUAT3.jpg',
+    img4: '/images/GUAT4jpg.jpg',
+    img5: '/images/GUAT1.jpg',
+    img6: '/images/GUAT5.JPG',
+    img7: '/images/GUAT6.jpg',
+    img8: '/images/GUAT7.jpg',
+    img9: '/images/GUAT8.jpg',
+  },
 ];
 
 export default galleryData;

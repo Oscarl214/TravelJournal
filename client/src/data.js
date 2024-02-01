@@ -54,6 +54,17 @@ const travelData = [
       'Puerto Rico, though not its own sovereign nation, holds its own weight. This trip was unforgettable, marking mines and my girlfriend first adventure as a couple. Renting a car allowed us to explore the stunning west coast of the island at our own pace. We visited San Juan, Arecibo, Culebra, and El Yunque, each destination leaving a unique imprint on our memories. The islands beauty captivated us, ensuring well return for more enchanting experiences in the future.  ',
     imageUrl: './PR.jpg',
   },
+  {
+    id: 6,
+    country: 'Guatemala',
+    age: 25,
+    googleMapsUrl: 'https://maps.app.goo.gl/nd61EC1SsHCddMPA6',
+    startDate: '23 January, 2024',
+    endDate: '27 January, 2024',
+    description:
+      'Guatemala. Guatemala is a Central American country with a diverse landscape, rich Mayan culture, and notable archaeological sites like Tikal. Mines and my partners second trip together. I was able to hike Acatenango which is an active volcano, we also enjoyed lake atlitlan and Antigua.   ',
+    imageUrl: './Guat.jpeg',
+  },
 ];
 
 export default travelData;

@@ -23,7 +23,9 @@ const Card = () => {
               src={country.imageUrl}
               style={{ height: '100%', maxWidth: '100%' }}
               alt=""
+              key={country.id}
             />
+
             <div className="flex flex-col justify-between p-4 leading-normal">
               <h5 className="mb-9 text-lg font-semibold tracking-tight text-gray-600">
                 <a href={country.googleMapsUrl}>
